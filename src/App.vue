@@ -1,6 +1,10 @@
 <template>
   <div id="app">
     <h1>Café Laravel<br> Le meilleur café du monde    </h1>
+    <toggle-button v-model="myDataVariable"/>
+
+
+
   </div>
 </template>
 
@@ -31,15 +35,4 @@ h1, h2 {
 
 ul {
   list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-a {
-  color: #42b983;
-}
-</style>
+  paddin
