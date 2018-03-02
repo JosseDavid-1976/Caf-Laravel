@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <h1>Café Laravel<br> Le meilleur café du monde    </h1>
-    <toggle-button v-model="myDataVariable"/>
+    Machine Colombie  <toggle-button v-model="myDataVariable"/><br>
+    Machine Mexique   <toggle-button v-model="myDataVariable"/><br>
+    Machine Ethiopie  <toggle-button v-model="myDataVariable"/>
 
 
 
